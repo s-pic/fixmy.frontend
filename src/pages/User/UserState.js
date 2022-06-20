@@ -11,7 +11,7 @@ import {
   apiPasswordReset,
   apiPasswordForgot,
   apiLikes,
-} from '~/pages/User/apiservice';
+} from "./apiservice";
 import { set, remove, get } from '~/services/storage';
 
 const SIGNUP = 'User/UserState/SIGNUP';

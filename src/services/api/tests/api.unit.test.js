@@ -1,6 +1,6 @@
 import { rest } from 'msw';
 
-import { compileAbsoluteRoute } from '~/services/api/tests/apiTestUtils';
+import { compileAbsoluteRoute } from "./apiTestUtils";
 import store from '~/store';
 
 import { ApiError, TimeoutError } from '../errors';

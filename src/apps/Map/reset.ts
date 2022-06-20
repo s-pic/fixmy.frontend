@@ -1,4 +1,4 @@
-import * as MapActions from '~/apps/Map/MapState';
+import * as MapActions from "./MapState";
 import Store from '~/store';
 
 function resetMap({ zoom = null } = {}) {

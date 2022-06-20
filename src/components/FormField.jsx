@@ -2,7 +2,7 @@ import { Field } from 'formik';
 import React from 'react';
 import styled from 'styled-components';
 
-import FormFieldError from '~/components/FormFieldError';
+import FormFieldError from "./FormFieldError";
 
 const FormFieldSection = styled.div`
   margin-bottom: 1em;

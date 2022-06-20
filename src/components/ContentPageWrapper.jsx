@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import styled from 'styled-components';
 
-import MenuButton from '~/components/MenuButton';
+import MenuButton from "./MenuButton";
 
 const ContentWrapper = styled.div`
   padding: 3rem 2rem 0 2rem;

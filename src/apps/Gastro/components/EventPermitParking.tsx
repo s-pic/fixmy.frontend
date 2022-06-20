@@ -3,7 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { SenderDepartment } from './SenderDepartment';
 
-import AreaMap from '~/apps/Gastro/components/AreaMap';
+import AreaMap from "./AreaMap";
 
 import { EventPermit } from '../types';
 import { dateReceived, getPermitFee, eventDate, dateDecided } from '../utils';

@@ -8,15 +8,15 @@ import { connect } from 'react-redux';
 import { Router } from 'react-router-dom';
 import styled from 'styled-components';
 
-import ErrorBoundary from '~/components/ErrorBoundary';
-import Menu from '~/components/Menu';
-import history from '~/history';
-import defaultMessages from '~/lang/compiled/de.json';
-import { verify } from '~/pages/User/UserState';
-import Routes from '~/routes';
-import { RootState, useTypedSelector } from '~/store';
-import GlobalStyles from '~/styles/Global';
-import { getTheme } from '~/styles/mui-utils';
+import ErrorBoundary from "./components/ErrorBoundary";
+import Menu from "./components/Menu";
+import history from "./history";
+import defaultMessages from "./lang/compiled/de.json";
+import { verify } from "./pages/User/UserState";
+import Routes from "./routes";
+import { RootState, useTypedSelector } from "./store";
+import GlobalStyles from "./styles/Global";
+import { getTheme } from "./styles/mui-utils";
 
 import intlErrorHandler from './lang/errorHandler';
 import loadLocaleMessages from './lang/loader';

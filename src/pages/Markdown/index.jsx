@@ -3,7 +3,7 @@ import React, { PureComponent } from 'react';
 import { Helmet } from 'react-helmet';
 
 import ContentPageWrapper from '~/components/ContentPageWrapper';
-import MarkdownContent from '~/pages/Markdown/components/MarkdownContent';
+import MarkdownContent from "./components/MarkdownContent";
 
 class MarkdownPage extends PureComponent {
   // Hardcode page names which should include noindex meta tag

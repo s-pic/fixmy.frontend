@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import Text from '~/components/Text';
+import Text from "./Text";
 
 export const ListComponent = styled.ul`
   padding: 0 0 0 22px;

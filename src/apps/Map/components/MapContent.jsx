@@ -2,8 +2,8 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 import styled from 'styled-components';
 
-import MapSelectorBar from '~/apps/Map/components/MapSelectorBar';
-import MapSwitch from '~/apps/Map/components/MapSwitch';
+import MapSelectorBar from "./MapSelectorBar";
+import MapSwitch from "./MapSwitch";
 import config from '~/config';
 import { orientation, media } from '~/styles/utils';
 

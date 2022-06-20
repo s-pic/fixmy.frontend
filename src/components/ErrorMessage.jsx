@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import styled from 'styled-components';
 
-import Button from '~/components/Button';
+import Button from "./Button";
 import config from '~/config';
 import logger from '~/utils/logger';
 

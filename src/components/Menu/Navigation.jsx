@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { close } from '~/AppState';
-import AnchorItem from '~/components/Menu/AnchorItem';
-import NavItem from '~/components/Menu/NavItem';
+import AnchorItem from "./AnchorItem";
+import NavItem from "./NavItem";
 import config from '~/config';
 import Store from '~/store';
 

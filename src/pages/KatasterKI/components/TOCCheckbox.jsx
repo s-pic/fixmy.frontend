@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 import config from '~/config';
-import Button from '~/pages/KatasterKI/components/Button';
-import Checkbox from '~/pages/KatasterKI/components/Checkbox';
-import ExternalLink from '~/pages/KatasterKI/components/ExternalLink';
+import Button from "./Button";
+import Checkbox from "./Checkbox";
+import ExternalLink from "./ExternalLink";
 import { media, isSmallScreen } from '~/styles/utils';
 
 const ButtonWrapper = styled.div`

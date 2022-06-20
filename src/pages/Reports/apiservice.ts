@@ -5,7 +5,7 @@
 import type { Point } from 'geojson';
 import ky from 'ky-universal';
 
-import config from '~/pages/Reports/config';
+import config from "./config";
 import logger from '~/utils/logger';
 
 import validateNewReport from './state/tests/schemaValidation/validateNewReport';

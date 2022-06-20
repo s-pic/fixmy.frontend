@@ -1,7 +1,7 @@
 import { createBrowserHistory } from 'history';
 import ReactPiwik from 'react-piwik';
 
-import config from '~/config';
+import config from "./config";
 
 const browserHistory = createBrowserHistory();
 

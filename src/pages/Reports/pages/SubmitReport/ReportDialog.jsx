@@ -10,7 +10,7 @@ import styled from 'styled-components';
 
 import config from '~/pages/Reports/config';
 import OverviewMapNavBar from '~/pages/Reports/pages/OverviewMap/components/OverviewMapNavBar';
-import FormProgressBar from '~/pages/Reports/pages/SubmitReport/components/FormProgressBar';
+import FormProgressBar from "./components/FormProgressBar";
 import { actions as errorStateActions } from '~/pages/Reports/state/ErrorState';
 import { actions as submitReportStateActions } from '~/pages/Reports/state/SubmitReportState';
 

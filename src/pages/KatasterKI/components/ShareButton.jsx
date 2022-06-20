@@ -1,6 +1,6 @@
 import React from 'react';
 
-import GhostButton from '~/pages/KatasterKI/components/GhostButton';
+import GhostButton from "./GhostButton";
 import config from '~/pages/KatasterKI/config';
 
 export default ({

@@ -3,13 +3,13 @@ import { connect, ConnectedProps } from 'react-redux';
 import { RouteComponentProps } from 'react-router-dom';
 import styled from 'styled-components';
 
-import PieChart from '~/apps/Analysis/components/PieChart';
+import PieChart from "./components/PieChart";
 import {
   loadProjectData,
   setDistrictFilter,
   setPhaseFilter,
   setSort,
-} from '~/apps/Analysis/state';
+} from "./state";
 import { PLANNING_PHASES } from '~/apps/Map/constants';
 import Flex from '~/components/Flex';
 import MenuButton from '~/components/MenuButton';

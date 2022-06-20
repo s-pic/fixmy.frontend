@@ -1,4 +1,4 @@
-import logger from '~/utils/logger';
+import logger from "./logger";
 
 export function numberFormat(num: number, decimals = 0, locale: string = 'de') {
   if (num == null) return '';

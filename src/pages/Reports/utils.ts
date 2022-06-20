@@ -16,7 +16,7 @@ import DefaultMarkerNew from '~/images/reports/marker/default/new@2x.png';
 import DefaultMarkerPlanning from '~/images/reports/marker/default/planning@2x.png';
 import DefaultMarkerRejected from '~/images/reports/marker/default/rejected@2x.png';
 import DefaultMarkerVerification from '~/images/reports/marker/default/verification@2x.png';
-import config from '~/pages/Reports/config';
+import config from "./config";
 import logger from '~/utils/logger';
 
 import { STATUS_PLANNING } from './apiservice';

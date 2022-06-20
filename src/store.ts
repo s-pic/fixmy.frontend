@@ -2,13 +2,13 @@ import { useSelector, TypedUseSelectorHook } from 'react-redux';
 import { createStore, compose, applyMiddleware, combineReducers } from 'redux';
 import thunk from 'redux-thunk';
 
-import AppState from '~/AppState';
-import AnalysisState from '~/apps/Analysis/state';
-import MapState from '~/apps/Map/MapState';
-import SpielstrassenState from '~/apps/Spielstrassen/state';
-import KatasterKIState from '~/pages/KatasterKI/state';
-import ReportsState from '~/pages/Reports/state';
-import UserState from '~/pages/User/UserState';
+import AppState from "./AppState";
+import AnalysisState from "./apps/Analysis/state";
+import MapState from "./apps/Map/MapState";
+import SpielstrassenState from "./apps/Spielstrassen/state";
+import KatasterKIState from "./pages/KatasterKI/state";
+import ReportsState from "./pages/Reports/state";
+import UserState from "./pages/User/UserState";
 
 const Reducer = combineReducers({
   AppState,

@@ -1,7 +1,7 @@
 import debug from 'debug';
 import { Dispatch } from 'redux';
 
-import { LocaleCode, DistrictConfig, Region } from '~/types';
+import { LocaleCode, DistrictConfig, Region } from "./types";
 
 import config from './apps/Gastro/config';
 import getDefaultLocale from './utils/defaultLocale';

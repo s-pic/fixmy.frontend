@@ -5,7 +5,7 @@ import styled, { css } from 'styled-components';
 import history from '~/history';
 import landingBgSrc from '~/images/strassencheck/landing-bg.jpg';
 import mapBgSrc from '~/images/strassencheck/map-bg.jpg';
-import config from '~/pages/KatasterKI/config';
+import config from "./config";
 import AppGlobalStyle from '~/styles/Global';
 import { media } from '~/styles/utils';
 

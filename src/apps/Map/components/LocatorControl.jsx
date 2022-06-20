@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
-import MapControl from '~/apps/Map/components/MapControl';
+import MapControl from "./MapControl";
 import { getGeoLocation } from '~/apps/Map/map-utils';
 import ErrorMessage from '~/components/ErrorMessage';
 import Loader from '~/components/Loader';

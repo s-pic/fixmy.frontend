@@ -1,6 +1,11 @@
 <p align="center">🚲 🚲 🚲</p>
 <h1 align="center">FixMyBerlin - A Mobility Platform for Berlin</h1>
 
+> **Note**
+> This branch deals as reference to how [eslint-plugin-relative-imports-when-same-folder](https://github.com/spicattutti/eslint-plugin-relative-imports-when-same-folder)
+can be used in a real-world project.
+
+
 ![Node.js CI](https://github.com/FixMyBerlin/fixmy.frontend/workflows/Node.js%20CI/badge.svg?branch=develop)
 
 You can check out the live version [at fixmyberlin.de](https://fixmyberlin.de/).

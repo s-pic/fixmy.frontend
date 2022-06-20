@@ -3,7 +3,7 @@ import { Router, Route, Switch, Redirect } from 'react-router-dom';
 
 import history from '~/history';
 import Markdown from '~/pages/Markdown';
-import config from '~/pages/Reports/config';
+import config from "./config";
 
 import Landing from './pages/Landing';
 import OverviewMap from './pages/OverviewMap';
