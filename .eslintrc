@@ -21,7 +21,8 @@
     "chai-friendly",
     "jest-dom",
     "formatjs",
-    "testing-library"
+    "testing-library",
+    "relative-imports-when-same-folder"
   ],
 
   "overrides": [
@@ -118,7 +119,9 @@
     // auto completion for imports and prevent inconsistent naming conventions
     // across modules.
     "import/prefer-default-export": ["off"],
-    "import/order": "off" // Turned off; we use VSCode's sort "Organize Imports" instead
+    "import/order": "off", // Turned off; we use VSCode's sort "Organize Imports" instead,
+    "relative-imports-when-same-folder/no-relative-imports-when-same-folder":
+    "error"
   },
 
   "env": {
